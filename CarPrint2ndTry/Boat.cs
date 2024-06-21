@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarPrint2ndTry
 {
-    internal class Boat : VehicleWithMax
+    internal class Boat : VehicleWithMaxSpeed
     {
         private int _tonnage;
         public Boat(string licenseplate, int effect, int maxspeed, int tonnage, string speedType) : base(licenseplate, effect, maxspeed, speedType)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarPrint2ndTry
 {
-    internal class Car : VehicleWithMax
+    internal class Car : VehicleWithMaxSpeed
     {
         private string _color;
         private string _type;

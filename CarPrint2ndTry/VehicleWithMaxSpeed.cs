@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CarPrint2ndTry
 {
-    internal class VehicleWithMax : Vehicle
+    internal class VehicleWithMaxSpeed : Vehicle
     {
         private int _maxspeed;
         private string _speedType;
 
-        public VehicleWithMax(string licenseplate, int effect, int maxspeed, string speedType) : base(licenseplate, effect)
+        public VehicleWithMaxSpeed(string licenseplate, int effect, int maxspeed, string speedType) : base(licenseplate, effect)
         {
             _maxspeed = maxspeed;
             _speedType = speedType;
